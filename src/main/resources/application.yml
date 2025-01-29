@@ -3,17 +3,15 @@ spring:
     name: s3-kotlin
 
 
-  config:
-    activate:
-      on-profile: localstack
-
 cloud:
   aws:
-    endpoint: http://localhost:4566  # URL do LocalStack (se estiver usando LocalStack)
     credentials:
-      access-key: test
-      secret-key: test
-      bucket-name: s3-test
+      access-key: ${AWS_ACCESS_KEY}
+      secret-key: ${AWS_SECRET_KEY}
+    services:
+      s3:
+        url: ${S3_URL}
+        bucket: ${BUCKET_NAME}
 logging:
   level:
     org.springframework.web.client: DEBUG

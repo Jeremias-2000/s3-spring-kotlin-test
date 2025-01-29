@@ -11,15 +11,10 @@ import java.io.InputStream
 import java.util.stream.Collectors
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/test")
 class S3Controller(
     val s3FileService: S3FileService
 ) {
-
-    companion object{
-        private const val FILE_NOT_EXISTS= "Arquivo nao encontrado"
-    }
-
 
     @PostMapping("/s3/files/upload")
     fun createFile(@RequestParam file:MultipartFile) :ResponseEntity<S3FIleDto>{
