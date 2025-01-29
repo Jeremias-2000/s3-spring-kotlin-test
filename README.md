@@ -1,6 +1,4 @@
-Here’s a clean and simple README template based on your instructions:
 
----
 
 # Project Setup and Deployment
 
