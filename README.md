@@ -1,5 +1,5 @@
 
-```markdown
+
 # Project Setup and Deployment
 
 This project uses Terraform to manage AWS resources, specifically an S3 bucket. The infrastructure is simulated using LocalStack.
@@ -19,7 +19,7 @@ To start LocalStack and the required services, run the following command:
 
 ```bash
 docker-compose up --build
-```
+
 
 This will build the necessary containers and start LocalStack.
 
