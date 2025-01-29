@@ -46,6 +46,9 @@ Confirm the action by typing `yes` when prompted.
 ### 4. Done!
 
 That's it! You now have your S3 bucket created, and LocalStack is simulating the AWS services locally.
+![Screenshot from 2024-11-12 13-17-43](https://github.com/user-attachments/assets/658e64ba-2b78-48c8-86fc-068769f3a183)
+
+![Alt Text]()
 
 ---
 
