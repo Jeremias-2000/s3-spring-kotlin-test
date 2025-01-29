@@ -1,0 +1,1 @@
+bucket_name_value = "s3-bucket-test"
