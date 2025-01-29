@@ -20,7 +20,7 @@ To start LocalStack and the required services, run the following command:
 
 ```bash
 docker-compose up --build
-
+```
 
 This will build the necessary Docker containers and start LocalStack, which simulates AWS services locally.
 
