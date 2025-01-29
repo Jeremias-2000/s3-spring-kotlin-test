@@ -25,7 +25,7 @@ FELV-cat.jpg
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
+ build/deployments/volume/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
